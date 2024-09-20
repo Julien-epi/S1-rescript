@@ -13,6 +13,8 @@
   "license": "MIT",
   "dependencies": {
     "@rescript/core": "^1.6.0",
-    "rescript": "^11.1.4"
+    "axios": "^1.7.7",
+    "rescript": "^11.1.4",
+    "rescript-fetch": "^0.0.3"
   }
 }
