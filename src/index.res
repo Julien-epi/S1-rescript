@@ -1,0 +1,1 @@
+let fetchPrice = DexFetcher.fetchPrice
