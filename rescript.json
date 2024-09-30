@@ -1,9 +1,11 @@
 {
   "name": "dex-fetcher",
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
   "package-specs": {
     "module": "esmodule",
     "in-source": true
@@ -11,9 +13,10 @@
   "suffix": ".res.mjs",
   "bs-dependencies": [
     "@rescript/core",
-    "rescript-fetch"
+    "rescript-webapi"
   ],
-  "bsc-flags": [
-    "-open RescriptCore"
-  ]
+  "bsc-flags": ["-open RescriptCore"],
+  "warnings": {
+    "number": "+A-48-50-101-102"
+  }
 }

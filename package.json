@@ -4,17 +4,15 @@
   "scripts": {
     "res:build": "rescript",
     "res:clean": "rescript clean",
-    "res:dev": "rescript -w"
+    "res:dev": "rescript -w",
+    "build": "rescript build",
+    "clean": "rescript clean",
+    "start": "node src/Main.res.mjs",
+    "watch": "rescript build -w"
   },
-  "keywords": [
-    "rescript"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "@rescript/core": "^1.6.0",
-    "axios": "^1.7.7",
     "rescript": "^11.1.4",
-    "rescript-fetch": "^0.0.3"
+    "rescript-webapi": "^0.9.1"
   }
 }
